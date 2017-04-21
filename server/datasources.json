@@ -3,5 +3,10 @@
         "url": "${MYSQL_DBONE_CONNECTION_STRING}",
         "name": "dbone",
         "connector": "mysql"
+    },
+    "dbtwo": {
+        "url": "${MYSQL_DBTWO_CONNECTION_STRING}",
+        "name": "dbtwo",
+        "connector": "mysql"
     }
 }
