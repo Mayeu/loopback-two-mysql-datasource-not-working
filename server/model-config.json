@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "dbone"
+  },
+  "AccessToken": {
+    "dataSource": "dbone",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "dbone",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "dbone",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "dbone",
+    "public": false
+  }
+}

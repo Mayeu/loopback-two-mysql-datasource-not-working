@@ -1,0 +1,7 @@
+{
+    "dbone": {
+        "url": "${MYSQL_DBONE_CONNECTION_STRING}",
+        "name": "dbone",
+        "connector": "mysql"
+    }
+}
